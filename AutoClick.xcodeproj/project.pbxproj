@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191C939E24109B68008B2FA8 /* CoordinateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 191C939D24109B68008B2FA8 /* CoordinateModel.m */; };
+		199FFEDE240613F3001C9FEE /* LocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199FFEDD240613F3001C9FEE /* LocationView.m */; };
+		251F34F923FA5E610068E1CE /* VCWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251F34F823FA5E610068E1CE /* VCWindowController.m */; };
+		2520774A22D460B000DB5F8A /* NSTextFieldNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2520774922D460B000DB5F8A /* NSTextFieldNumberFormatter.m */; };
+		2529B89F2404FABE00743A65 /* AutoClickTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 25F45EEF22B3D601005A10A5 /* AutoClickTests.xctest */; };
+		2529B8A02405009600743A65 /* AutoClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F45EF322B3D601005A10A5 /* AutoClickTests.m */; };
+		2529B8B72405026500743A65 /* AutoClickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2529B8B62405026500743A65 /* AutoClickUITests.m */; };
+		2529DFF822B8C2A000BE0542 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2529DFF622B8C2A000BE0542 /* LocationViewController.m */; };
+		252EE486237A9B7C004D2F3E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252EE485237A9B7C004D2F3E /* AppKit.framework */; };
+		252EE48A237A9C21004D2F3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252EE489237A9C21004D2F3E /* Cocoa.framework */; };
+		252EE48C237A9C2C004D2F3E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252EE48B237A9C2C004D2F3E /* Carbon.framework */; };
+		252EE494237A9C87004D2F3E /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EE48E237A9C86004D2F3E /* DDHotKeyTextField.m */; };
+		252EE495237A9C87004D2F3E /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EE48F237A9C86004D2F3E /* DDHotKeyUtilities.m */; };
+		252EE496237A9C87004D2F3E /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EE490237A9C86004D2F3E /* DDHotKeyCenter.m */; };
+		252EE497237A9C87004D2F3E /* DDHotKeyTextField.h in Sources */ = {isa = PBXBuildFile; fileRef = 252EE491237A9C86004D2F3E /* DDHotKeyTextField.h */; };
+		252EE498237A9C87004D2F3E /* DDHotKeyCenter.h in Sources */ = {isa = PBXBuildFile; fileRef = 252EE492237A9C86004D2F3E /* DDHotKeyCenter.h */; };
+		252EE499237A9C87004D2F3E /* DDHotKeyUtilities.h in Sources */ = {isa = PBXBuildFile; fileRef = 252EE493237A9C87004D2F3E /* DDHotKeyUtilities.h */; };
+		252EE49D237D351E004D2F3E /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252EE49B237D351E004D2F3E /* LocationViewController.xib */; };
+		25F45EDE22B3D5FE005A10A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F45EDD22B3D5FE005A10A5 /* AppDelegate.m */; };
+		25F45EE122B3D5FE005A10A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F45EE022B3D5FE005A10A5 /* ViewController.m */; };
+		25F45EE322B3D601005A10A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F45EE222B3D601005A10A5 /* Assets.xcassets */; };
+		25F45EE622B3D601005A10A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F45EE422B3D601005A10A5 /* Main.storyboard */; };
+		25F45EE922B3D601005A10A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F45EE822B3D601005A10A5 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2529B8B92405026500743A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F45ED122B3D5FE005A10A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F45ED822B3D5FE005A10A5;
+			remoteInfo = AutoClick;
+		};
+		25F45EF022B3D601005A10A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F45ED122B3D5FE005A10A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F45ED822B3D5FE005A10A5;
+			remoteInfo = test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191C939C24109B68008B2FA8 /* CoordinateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinateModel.h; sourceTree = "<group>"; };
+		191C939D24109B68008B2FA8 /* CoordinateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinateModel.m; sourceTree = "<group>"; };
+		199FFEDC240613F3001C9FEE /* LocationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationView.h; sourceTree = "<group>"; };
+		199FFEDD240613F3001C9FEE /* LocationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationView.m; sourceTree = "<group>"; };
+		251F34F723FA5E610068E1CE /* VCWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCWindowController.h; sourceTree = "<group>"; };
+		251F34F823FA5E610068E1CE /* VCWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCWindowController.m; sourceTree = "<group>"; };
+		2520774822D460AF00DB5F8A /* NSTextFieldNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTextFieldNumberFormatter.h; sourceTree = "<group>"; };
+		2520774922D460B000DB5F8A /* NSTextFieldNumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextFieldNumberFormatter.m; sourceTree = "<group>"; };
+		2529B8B42405026500743A65 /* AutoClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoClickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2529B8B62405026500743A65 /* AutoClickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoClickUITests.m; sourceTree = "<group>"; };
+		2529B8B82405026500743A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2529DFF522B8C2A000BE0542 /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		2529DFF622B8C2A000BE0542 /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		252EE485237A9B7C004D2F3E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		252EE487237A9B86004D2F3E /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		252EE489237A9C21004D2F3E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		252EE48B237A9C2C004D2F3E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		252EE48E237A9C86004D2F3E /* DDHotKeyTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyTextField.m; sourceTree = "<group>"; };
+		252EE48F237A9C86004D2F3E /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
+		252EE490237A9C86004D2F3E /* DDHotKeyCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		252EE491237A9C86004D2F3E /* DDHotKeyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDHotKeyTextField.h; sourceTree = "<group>"; };
+		252EE492237A9C86004D2F3E /* DDHotKeyCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
+		252EE493237A9C87004D2F3E /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
+		252EE49C237D351E004D2F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LocationViewController.xib; sourceTree = "<group>"; };
+		25F45ED922B3D5FE005A10A5 /* AutoClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F45EDC22B3D5FE005A10A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25F45EDD22B3D5FE005A10A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25F45EDF22B3D5FE005A10A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25F45EE022B3D5FE005A10A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25F45EE222B3D601005A10A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F45EE522B3D601005A10A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F45EE722B3D601005A10A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F45EE822B3D601005A10A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25F45EEA22B3D601005A10A5 /* AutoClick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoClick.entitlements; sourceTree = "<group>"; };
+		25F45EEF22B3D601005A10A5 /* AutoClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoClickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F45EF322B3D601005A10A5 /* AutoClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoClickTests.m; sourceTree = "<group>"; };
+		25F45EF522B3D601005A10A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2529B8B12405026500743A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F45ED622B3D5FE005A10A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252EE48C237A9C2C004D2F3E /* Carbon.framework in Frameworks */,
+				252EE48A237A9C21004D2F3E /* Cocoa.framework in Frameworks */,
+				252EE486237A9B7C004D2F3E /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F45EEC22B3D601005A10A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191C939F2410E798008B2FA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				191C939C24109B68008B2FA8 /* CoordinateModel.h */,
+				191C939D24109B68008B2FA8 /* CoordinateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2529B8B52405026500743A65 /* AutoClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2529B8B62405026500743A65 /* AutoClickUITests.m */,
+				2529B8B82405026500743A65 /* Info.plist */,
+			);
+			path = AutoClickUITests;
+			sourceTree = "<group>";
+		};
+		252EE484237A9B7B004D2F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252EE48B237A9C2C004D2F3E /* Carbon.framework */,
+				252EE489237A9C21004D2F3E /* Cocoa.framework */,
+				252EE487237A9B86004D2F3E /* AppleScriptObjC.framework */,
+				252EE485237A9B7C004D2F3E /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		252EE49A237A9CE8004D2F3E /* DDHotkey */ = {
+			isa = PBXGroup;
+			children = (
+				252EE491237A9C86004D2F3E /* DDHotKeyTextField.h */,
+				252EE48E237A9C86004D2F3E /* DDHotKeyTextField.m */,
+				252EE493237A9C87004D2F3E /* DDHotKeyUtilities.h */,
+				252EE48F237A9C86004D2F3E /* DDHotKeyUtilities.m */,
+				252EE492237A9C86004D2F3E /* DDHotKeyCenter.h */,
+				252EE490237A9C86004D2F3E /* DDHotKeyCenter.m */,
+			);
+			path = DDHotkey;
+			sourceTree = "<group>";
+		};
+		25F45ED022B3D5FE005A10A5 = {
+			isa = PBXGroup;
+			children = (
+				252EE49A237A9CE8004D2F3E /* DDHotkey */,
+				25F45EDB22B3D5FE005A10A5 /* AutoClick */,
+				25F45EF222B3D601005A10A5 /* AutoClickTests */,
+				2529B8B52405026500743A65 /* AutoClickUITests */,
+				25F45EDA22B3D5FE005A10A5 /* Products */,
+				252EE484237A9B7B004D2F3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25F45EDA22B3D5FE005A10A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F45ED922B3D5FE005A10A5 /* AutoClick.app */,
+				25F45EEF22B3D601005A10A5 /* AutoClickTests.xctest */,
+				2529B8B42405026500743A65 /* AutoClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F45EDB22B3D5FE005A10A5 /* AutoClick */ = {
+			isa = PBXGroup;
+			children = (
+				191C939F2410E798008B2FA8 /* Model */,
+				25F45EDC22B3D5FE005A10A5 /* AppDelegate.h */,
+				25F45EDD22B3D5FE005A10A5 /* AppDelegate.m */,
+				251F34F723FA5E610068E1CE /* VCWindowController.h */,
+				251F34F823FA5E610068E1CE /* VCWindowController.m */,
+				25F45EDF22B3D5FE005A10A5 /* ViewController.h */,
+				25F45EE022B3D5FE005A10A5 /* ViewController.m */,
+				2529DFF522B8C2A000BE0542 /* LocationViewController.h */,
+				2529DFF622B8C2A000BE0542 /* LocationViewController.m */,
+				199FFEDC240613F3001C9FEE /* LocationView.h */,
+				199FFEDD240613F3001C9FEE /* LocationView.m */,
+				2520774822D460AF00DB5F8A /* NSTextFieldNumberFormatter.h */,
+				2520774922D460B000DB5F8A /* NSTextFieldNumberFormatter.m */,
+				25F45EE222B3D601005A10A5 /* Assets.xcassets */,
+				25F45EE422B3D601005A10A5 /* Main.storyboard */,
+				252EE49B237D351E004D2F3E /* LocationViewController.xib */,
+				25F45EE722B3D601005A10A5 /* Info.plist */,
+				25F45EE822B3D601005A10A5 /* main.m */,
+				25F45EEA22B3D601005A10A5 /* AutoClick.entitlements */,
+			);
+			path = AutoClick;
+			sourceTree = "<group>";
+		};
+		25F45EF222B3D601005A10A5 /* AutoClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				25F45EF322B3D601005A10A5 /* AutoClickTests.m */,
+				25F45EF522B3D601005A10A5 /* Info.plist */,
+			);
+			path = AutoClickTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2529B8B32405026500743A65 /* AutoClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2529B8BB2405026500743A65 /* Build configuration list for PBXNativeTarget "AutoClickUITests" */;
+			buildPhases = (
+				2529B8B02405026500743A65 /* Sources */,
+				2529B8B12405026500743A65 /* Frameworks */,
+				2529B8B22405026500743A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2529B8BA2405026500743A65 /* PBXTargetDependency */,
+			);
+			name = AutoClickUITests;
+			productName = AutoClickUITests;
+			productReference = 2529B8B42405026500743A65 /* AutoClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		25F45ED822B3D5FE005A10A5 /* AutoClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F45F0322B3D601005A10A5 /* Build configuration list for PBXNativeTarget "AutoClick" */;
+			buildPhases = (
+				25F45ED522B3D5FE005A10A5 /* Sources */,
+				25F45ED622B3D5FE005A10A5 /* Frameworks */,
+				25F45ED722B3D5FE005A10A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoClick;
+			productName = test;
+			productReference = 25F45ED922B3D5FE005A10A5 /* AutoClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F45EEE22B3D601005A10A5 /* AutoClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F45F0622B3D601005A10A5 /* Build configuration list for PBXNativeTarget "AutoClickTests" */;
+			buildPhases = (
+				25F45EEB22B3D601005A10A5 /* Sources */,
+				25F45EEC22B3D601005A10A5 /* Frameworks */,
+				25F45EED22B3D601005A10A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F45EF122B3D601005A10A5 /* PBXTargetDependency */,
+			);
+			name = AutoClickTests;
+			productName = testTests;
+			productReference = 25F45EEF22B3D601005A10A5 /* AutoClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F45ED122B3D5FE005A10A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Primax;
+				TargetAttributes = {
+					2529B8B32405026500743A65 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 25F45ED822B3D5FE005A10A5;
+					};
+					25F45ED822B3D5FE005A10A5 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					25F45EEE22B3D601005A10A5 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 25F45ED822B3D5FE005A10A5;
+					};
+				};
+			};
+			buildConfigurationList = 25F45ED422B3D5FE005A10A5 /* Build configuration list for PBXProject "AutoClick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F45ED022B3D5FE005A10A5;
+			productRefGroup = 25F45EDA22B3D5FE005A10A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F45ED822B3D5FE005A10A5 /* AutoClick */,
+				25F45EEE22B3D601005A10A5 /* AutoClickTests */,
+				2529B8B32405026500743A65 /* AutoClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2529B8B22405026500743A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F45ED722B3D5FE005A10A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F45EE322B3D601005A10A5 /* Assets.xcassets in Resources */,
+				252EE49D237D351E004D2F3E /* LocationViewController.xib in Resources */,
+				25F45EE622B3D601005A10A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F45EED22B3D601005A10A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2529B89F2404FABE00743A65 /* AutoClickTests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2529B8B02405026500743A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2529B8B72405026500743A65 /* AutoClickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F45ED522B3D5FE005A10A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252EE494237A9C87004D2F3E /* DDHotKeyTextField.m in Sources */,
+				252EE495237A9C87004D2F3E /* DDHotKeyUtilities.m in Sources */,
+				252EE496237A9C87004D2F3E /* DDHotKeyCenter.m in Sources */,
+				191C939E24109B68008B2FA8 /* CoordinateModel.m in Sources */,
+				252EE497237A9C87004D2F3E /* DDHotKeyTextField.h in Sources */,
+				251F34F923FA5E610068E1CE /* VCWindowController.m in Sources */,
+				252EE498237A9C87004D2F3E /* DDHotKeyCenter.h in Sources */,
+				252EE499237A9C87004D2F3E /* DDHotKeyUtilities.h in Sources */,
+				25F45EE122B3D5FE005A10A5 /* ViewController.m in Sources */,
+				25F45EE922B3D601005A10A5 /* main.m in Sources */,
+				25F45EDE22B3D5FE005A10A5 /* AppDelegate.m in Sources */,
+				199FFEDE240613F3001C9FEE /* LocationView.m in Sources */,
+				2520774A22D460B000DB5F8A /* NSTextFieldNumberFormatter.m in Sources */,
+				2529DFF822B8C2A000BE0542 /* LocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F45EEB22B3D601005A10A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2529B8A02405009600743A65 /* AutoClickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2529B8BA2405026500743A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F45ED822B3D5FE005A10A5 /* AutoClick */;
+			targetProxy = 2529B8B92405026500743A65 /* PBXContainerItemProxy */;
+		};
+		25F45EF122B3D601005A10A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F45ED822B3D5FE005A10A5 /* AutoClick */;
+			targetProxy = 25F45EF022B3D601005A10A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252EE49B237D351E004D2F3E /* LocationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252EE49C237D351E004D2F3E /* Base */,
+			);
+			name = LocationViewController.xib;
+			sourceTree = "<group>";
+		};
+		25F45EE422B3D601005A10A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F45EE522B3D601005A10A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2529B8BC2405026500743A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Primax.AutoClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoClick;
+			};
+			name = Debug;
+		};
+		2529B8BD2405026500743A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoClickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Primax.AutoClickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoClick;
+			};
+			name = Release;
+		};
+		25F45F0122B3D601005A10A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25F45F0222B3D601005A10A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25F45F0422B3D601005A10A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutoClick/AutoClick.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Primax.AutoClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25F45F0522B3D601005A10A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutoClick/AutoClick.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoClick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Primax.AutoClick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25F45F0722B3D601005A10A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Primax.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoClick.app/Contents/MacOS/AutoClick";
+			};
+			name = Debug;
+		};
+		25F45F0822B3D601005A10A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Primax.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoClick.app/Contents/MacOS/AutoClick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2529B8BB2405026500743A65 /* Build configuration list for PBXNativeTarget "AutoClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2529B8BC2405026500743A65 /* Debug */,
+				2529B8BD2405026500743A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F45ED422B3D5FE005A10A5 /* Build configuration list for PBXProject "AutoClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F45F0122B3D601005A10A5 /* Debug */,
+				25F45F0222B3D601005A10A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F45F0322B3D601005A10A5 /* Build configuration list for PBXNativeTarget "AutoClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F45F0422B3D601005A10A5 /* Debug */,
+				25F45F0522B3D601005A10A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F45F0622B3D601005A10A5 /* Build configuration list for PBXNativeTarget "AutoClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F45F0722B3D601005A10A5 /* Debug */,
+				25F45F0822B3D601005A10A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F45ED122B3D5FE005A10A5 /* Project object */;
+}
